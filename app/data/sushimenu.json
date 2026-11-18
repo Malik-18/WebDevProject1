@@ -1,0 +1,12 @@
+[
+  {"name": "Unagi Roll", "type": "Maki", "ingredient": "Grilled eel", "pieces": 8, "price": 7.5},
+  {"name": "Crunch Roll", "type": "Maki", "ingredient": "Shrimp tempura", "pieces": 8, "price": 8},
+  {"name": "Canuck Roll", "type": "Maki", "ingredient": "Salmon skin", "pieces": 8, "price": 7.75},
+  {"name": "California Roll", "type": "Maki", "ingredient": "Imitation crab", "pieces": 8, "price": 6.5},
+  {"name": "Spicy Tuna Roll", "type": "Maki", "ingredient": "Tuna", "pieces": 6, "price": 7.25},
+  {"name": "Salmon Nigiri", "type": "Nigiri", "ingredient": "Salmon", "pieces": 2, "price": 5},
+  {"name": "Tuna Nigiri", "type": "Nigiri", "ingredient": "Tuna", "pieces": 2, "price": 5.5},
+  {"name": "Ebi Nigiri", "type": "Nigiri", "ingredient": "Shrimp", "pieces": 2, "price": 4.5},
+  {"name": "Salmon Temaki", "type": "Hand roll", "ingredient": "Salmon", "pieces": 1, "price": 6},
+  {"name": "Dragon Roll", "type": "Maki", "ingredient": "Eel and avocado", "pieces": 8, "price": 12}
+]

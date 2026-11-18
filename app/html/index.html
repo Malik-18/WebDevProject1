@@ -6,13 +6,14 @@
     <title>Sushi = Delicious</title>
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
 </head>
 <body>
 
     <header id="navBar">
         <nav id="mainNav">
             <ul id="navList">
-                <span id="period"></span>
+                <li id="period"></li>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
@@ -37,6 +38,17 @@
         </div>
         <p id="text">You better be prepared to talk about sushi when you befriend me.</p>
     </div>
+
+    <section id="menu">
+        <div class="menuBox">
+            <h2>Roll menu (HTML table from the server)</h2>
+            <div id="menu-html"></div>
+        </div>
+        <div class="menuBox">
+            <h2>Roll menu (built from JSON)</h2>
+            <div id="menu-json"></div>
+        </div>
+    </section>
 
     <main id="mainContent">
         <div id="postsHead">

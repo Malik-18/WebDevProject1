@@ -268,8 +268,7 @@ a { color: #245595;
 
 #pageFooter > img {
     width: 30px; 
-    height: 20px; 
-    align-self: right; 
+    height: 20px;  
 }
 
 @media (max-width: 1024px) {
