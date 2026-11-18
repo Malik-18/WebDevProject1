@@ -14,16 +14,14 @@ app.get("/", function (req, res) {
     res.send(doc);
 });
 
-// AJAX path #1: sends a snippet of HTML (a table)
-app.get("/menu-html", function (req, res) {
-    let doc = fs.readFileSync("./app/data/sushi-menu.html", "utf8");
+app.get("/menuhtml", function (req, res) {
+    let doc = fs.readFileSync("./app/data/sushimenu.html", "utf8");
     res.setHeader("Content-Type", "text/html");
     res.send(doc);
 });
 
-// AJAX path #2: sends JSON
-app.get("/menu-json", function (req, res) {
-    let doc = fs.readFileSync("./app/data/sushi-menu.json", "utf8");
+app.get("/menujson", function (req, res) {
+    let doc = fs.readFileSync("./app/data/sushimenu.json", "utf8");
     res.setHeader("Content-Type", "application/json");
     res.send(doc);
 });

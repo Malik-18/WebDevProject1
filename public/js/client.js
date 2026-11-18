@@ -12,12 +12,12 @@ function ajaxGET(url, callback) {
 }
 
 // CALL 1: the server sends an HTML table, so we can drop it right in
-ajaxGET("/menu-html", function (data) {
-    document.getElementById("menu-html").innerHTML = data;
+ajaxGET("/menuhtml", function (data) {
+    document.getElementById("menuhtml").innerHTML = data;
 });
 
 // CALL 2: the server sends JSON text, so we parse it and build the table ourselves
-ajaxGET("/menu-json", function (data) {
+ajaxGET("/menujson", function (data) {
     let rolls = JSON.parse(data);
 
     let table = document.createElement("table");
@@ -45,5 +45,5 @@ ajaxGET("/menu-json", function (data) {
         table.appendChild(row);
     }
 
-    document.getElementById("menu-json").appendChild(table);
+    document.getElementById("menujson").appendChild(table);
 });
